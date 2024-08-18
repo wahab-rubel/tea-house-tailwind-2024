@@ -220,8 +220,8 @@
   <footer class="bg-gradient-to-r from-red-50 to-red-50 px-4 py-12 lg:px-96 lg:py-32">
     <div class="w-11/12h-24 mx-auto ">
       <div class="grid grid-cols-1 lg:grid-cols-2">
-        <div>
-          <img class="" src="./images/cup.png" alt="">
+        <div class="bg-amber-500 w-24 h-24 inline-flex justify-center items-center rounded-full">
+          <img src="./images/cup.png" alt="">
         </div>
         <div class="flex items-center gap-32">
           <h1 class="text-base text-[#text-base]">Ready to get started?</h1>
@@ -230,7 +230,7 @@
       </div>
       <div class="grid grid-cols-1 lg:grid-cols-4 py-16">
         <div>
-          <h1 class="font-semibold text-base text-[#1C1C1C]">Quick Links</h1> <br>
+          <a class="font-bold text-base hover:text-orange-500" href="#Quick Links">Quick Links</a>
           <ul>
             <li><a class="hover:text-orange-600" href="#home">Home</a></li>
             <li class="mt-2"><a class="hover:text-orange-600" href="#about">About</a></li>
@@ -256,12 +256,21 @@
         </div>
         <div>
           <h1 class="font-semibold text-lg text-[#1C1C1C]">Subscribe to our <br> newsletter</h1> <br>
-            <label>
-              <input type="text" placeholder="Email Address">
-              <i class="fa-solid fa-angle-right bg-orange-700"></i>
-            </label>
+            <dvi>
+              <input type="text" placeholder="Email Address" class="bg-gradient-to-r from-red-50 to-red-50 border-b-2 p-4">
+              <i class="fa-solid fa-angle-right w-7 h-7 text-white rounded-full  bg-gradient-to-r from-[#FF8938] to-[#FF0000] inline-flex justify-center items-center"></i>
+            </dvi>
+            <div>
+              <i class="fa-brands fa-facebook hover:text-orange-500 w-7 h-7 mt-4"></i>
+              <i class="fa-brands fa-twitter hover:text-orange-500 w-7 h-7 mt-4"></i>
+              <i class="fa-brands fa-linkedin hover:text-orange-500 w-7 h-7 mt-4"></i>
+              <i class="fa-solid fa-globe hover:text-orange-500 w-7 h-7 mt-4"></i>
+            </div>
         </div>
       </div>
+    </div>
+    <div>
+      <h1 class="text-center text-[#777777] font-sm ">© 2027 UIDesign.to - All rights reserved.</h1>
     </div>
   </footer>
 </body>
